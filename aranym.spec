@@ -1,8 +1,10 @@
+%define _disable_lto 1
+
 Name: aranym
-Version: 0.9.13
+Version: 1.0.2
 Release: 1
 Summary: Atari ST/TT/Falcon emulator
-Source: http://switch.dl.sourceforge.net/project/aranym/aranym/%version/aranym_%version.orig.tar.gz
+Source0: http://downloads.sourceforge.net/project/aranym/aranym/%{version}/aranym_%{version}.orig.tar.gz
 License: GPLv2
 Group: Emulators
 BuildRequires: pkgconfig(x11) pkgconfig(sdl) pkgconfig(SDL_image)
@@ -12,7 +14,7 @@ Atari ST/TT/Falcon emulator
 
 %prep
 %setup -q
-%configure
+%configure --disable-sdl2
 
 %build
 %make
