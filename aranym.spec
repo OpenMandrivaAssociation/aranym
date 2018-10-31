@@ -2,7 +2,7 @@
 
 Name: aranym
 Version: 1.0.2
-Release: 1
+Release: 2
 Summary: Atari ST/TT/Falcon emulator
 Source0: http://downloads.sourceforge.net/project/aranym/aranym/%{version}/aranym_%{version}.orig.tar.gz
 License: GPLv2
