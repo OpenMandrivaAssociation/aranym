@@ -15,7 +15,7 @@ BuildRequires: pkgconfig(SDL_image)
 Atari ST/TT/Falcon emulator
 
 %prep
-%autosetup -p1
+%setup -qn ARANYM_1_1_0/aranym-ARANYM_1_1_0
 
 %build
 autoreconf -vfi
