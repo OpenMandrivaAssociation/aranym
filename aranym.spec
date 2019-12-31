@@ -1,4 +1,4 @@
-%define _disable_lto 1
+#define _disable_lto 1
 
 Name: aranym
 Version: 1.1.0
