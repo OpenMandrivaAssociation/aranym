@@ -8,6 +8,11 @@ Source0: https://github.com/aranym/aranym/archive/ARANYM_1_1_0/aranym-ARANYM_1_1
 Patch0:  Use-pow10-only-if-it-exits.patch
 License: GPLv2
 Group: Emulators
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pkgconfig(x11) 
 BuildRequires: pkgconfig(sdl) 
 BuildRequires: pkgconfig(SDL_image)
